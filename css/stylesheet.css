@@ -1,31 +1,40 @@
-.body{
-    font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
+
+html {
+    font-size: 62.5%;
+}
+body {
+font-size: 1.6em;
+}
+h1{
+font-size: 5rem; /* 50px */
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
+p{
+font-size: 1.5rem; /* 15px */
 }
 .header{
-    background-image:url(https://hidenorifunabashi.github.io/Portfolio/images/startup-593341_1280.jpg);
+    background-image:url(/images/header.jpg);
     display: flex;
     width: 100%;
     height: 500px;
     align-items: center;
-    color: white;
     background-size: cover;
 }
 .header-contents{
     margin: 0 auto;
 }
 .title{
-    font-size: 25px;
-    padding-bottom: 50px;
     text-align: center;
     color: white;
     font-family: "游明朝", YuMincho,"メイリオ",Meiryo,serif,sans-serif;
 }
 .title h1{
+    font-size: 9rem;
     margin-bottom: 0;
     font-weight: 800;
 }
@@ -44,34 +53,30 @@
     padding:20px 0 50px 0;
 }
 .menu i{
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 .menu a{
-    font-size: 30px;
+    font-size: 3rem;
     font-family: "游明朝", YuMincho,"メイリオ",Meiryo,serif,sans-serif;
     text-decoration:none;
 }
 a:hover{
     text-decoration: underline;
-    }
+}
 a:link, a:visited, a:hover, a:active {
     color:black;
-    }
-/* メイン */
-.section{
-    width: 800px;
-    margin: 0 auto;
 }
+
+/* メイン */
 .text-center{
     text-align: center;
 }
 .section-title{
     text-align: center;
-    font-size: 3rem;
     font-family: "游明朝", YuMincho,"メイリオ",Meiryo,serif,sans-serif;
 }
 .fa-size{
-    font-size:50px;
+    font-size:4rem;
     display: block;
     margin-bottom: 20px;
 }
@@ -91,7 +96,7 @@ a:link, a:visited, a:hover, a:active {
     width: 230px;
 }
 .sub-section h3{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: "游明朝", YuMincho,"メイリオ",Meiryo,serif,sans-serif;
 }
 /* スキル */
@@ -130,7 +135,7 @@ a:link, a:visited, a:hover, a:active {
 .card-caption-title{
     font-family: "游明朝", YuMincho,"メイリオ",Meiryo,serif,sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2rem;
 }
 .card-caption-info{
     font-size: 13px;
@@ -169,4 +174,71 @@ a:link, a:visited, a:hover, a:active {
 }
 .move-page-top:hover{
 	opacity: 0.85;
+}
+
+/* スマホ用 */
+@media screen and (max-width:480px){ 
+    html {
+        font-size: 62.5%;
+    }
+    .title h1{
+        font-size: 3.5rem;
+        margin-bottom: 0;
+        font-weight: 800;
+    }
+    .title h3{
+        font-style: italic;
+        margin-top: 0;
+        font-size: 2rem;
+    }
+    
+    /* メニュー */
+    .menu{
+        padding:0 0 0 0 0;
+        display: flex;
+        justify-content:space-between;
+        width: 350px;
+        margin:0 auto;
+        padding:30px 0 50px 10px;
+    }
+    .menu a{
+        font-size: 1.7rem;
+    }
+    .menu i{
+        font-size: 1.5rem;
+    }
+
+    /* メイン */
+    .fa-size{
+        font-size:3rem;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /* プロフィール */
+    .section-content{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .profile-icon{
+        text-align: center;
+    }
+    .profile-content{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .sub-section h3{
+        text-align: center;
+    }
+
+    /* WORKS */
+    .card-wrapper {
+        height: 450px;
+    }
+    .card img{
+        height: 250px;
+        width: 100%;
+    }
 }
