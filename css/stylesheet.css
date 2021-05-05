@@ -18,7 +18,7 @@ p{
 font-size: 1.5rem; /* 15px */
 }
 .header{
-    background-image:url(/images/header.jpg);
+    background-image:url(<img src="https://hidenorifunabashi.github.io/Portfolio/images/header.jpg" alt="">);
     display: flex;
     width: 100%;
     height: 500px;
