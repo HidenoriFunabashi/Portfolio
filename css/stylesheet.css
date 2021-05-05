@@ -191,7 +191,7 @@ a:link, a:visited, a:hover, a:active {
         margin-top: 0;
         font-size: 2rem;
     }
-    body{
+    .main{
         overflow: hidden;
     }
 	
