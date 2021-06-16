@@ -118,6 +118,11 @@ a:link, a:visited, a:hover, a:active {
     background-color: #c8cbcc;
     width:100%;
 }
+.works{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .works-title{
     padding-top: 40px;
 }
