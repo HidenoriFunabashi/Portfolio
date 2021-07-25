@@ -244,6 +244,7 @@ a:link, a:visited, a:hover, a:active {
     /* WORKS */
     .card-wrapper {
         height: 450px;
+	width:  450px;
     }
     .card img{
         height: 250px;
